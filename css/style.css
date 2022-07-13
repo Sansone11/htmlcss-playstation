@@ -1,12 +1,42 @@
 /* debug */
-/* *{
+* {
     border: solid 1px red;
-    
-} */
-.nav_wrapper .logo_sony img{
+
+}
+
+.nav_wrapper .logo_sony img {
     width: 5.25rem;
 }
 
 /* li{
     text-decoration: none;
 } */
+.hero {
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    
+}
+
+.hero h3{
+    font-size: 60px;
+    
+}
+
+.returnal{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    padding-right: 1rem;
+}
+
+.get_up{
+    max-width: 400px;
+}
+
+.ret_logo {
+    height: 70px;
+    width: 576px;
+}
