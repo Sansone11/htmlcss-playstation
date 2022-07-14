@@ -16,7 +16,6 @@
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: top;
-    position: relative;
     
 }
 
@@ -26,10 +25,18 @@
 }
 
 .returnal{
-    position: absolute;
     bottom: 20px;
     left: 15px;
     padding-right: 1rem;
+}
+
+.buy{
+    height:64px;
+    width:170px;
+    border-radius: 20%;
+    background-color: #CD3D0F;
+    color: white;
+    border: none;
 }
 
 .get_up{
@@ -39,4 +46,8 @@
 .ret_logo {
     height: 70px;
     width: 576px;
+}
+
+.card img{
+    width: 90%;
 }
