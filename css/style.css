@@ -1,11 +1,8 @@
 /* debug */
-* {
-    border: solid 1px red;
-
-}
 
 :root{
     --bg-orange:#CD3D0F;
+    --bg-new-exit-dark:#1F1F1F;
 }
 
 .nav_wrapper .logo_sony img {
@@ -80,3 +77,47 @@ a{
 .play-card{
     width: 100%;
 }
+
+/* section take two */
+
+.take_two{
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: top;  
+}
+
+.takes_two>.container{
+    height: 600px;
+}
+
+.take_two h3{
+    font-size: 40px;
+    max-width: 300px;
+}
+
+.take_logo{ 
+    max-width: 300px;
+}
+
+.find_friend{
+    max-width: 300px;
+}
+
+/* new exit */
+
+.new_exit{
+    height: 600px;
+    background-color:var(--bg-new-exit-dark) ;
+}
+
+.new_exit>.container{
+    height: 600px;
+}
+
+.crash-card{
+    width: 100%;
+}
+
+
+
