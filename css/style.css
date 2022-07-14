@@ -107,17 +107,29 @@ a{
 /* new exit */
 
 .new_exit{
-    height: 600px;
+    min-height: 600px;
     background-color:var(--bg-new-exit-dark) ;
 }
 
 .new_exit>.container{
-    height: 600px;
+    min-height: 600px;
 }
 
 .crash-card{
     width: 100%;
 }
+
+/* Explore */
+
+.explore{
+    min-height: 600px;
+}
+
+.explore>.container{
+    min-height: 600px;
+}
+
+
 
 
 
