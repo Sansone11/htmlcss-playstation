@@ -8,9 +8,29 @@
     width: 5.25rem;
 }
 
-/* li{
+.search{
+    height: 24px;
+    color: black;
+}
+
+.menù_wrap_right{
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    content: 'f107';
+}
+
+li{
     text-decoration: none;
-} */
+}
+
+a{
+    text-decoration: none;
+}
+
 .hero {
     height: 600px;
     background-image: url(../img/jumbo-bg.png);
