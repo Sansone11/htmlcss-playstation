@@ -3,6 +3,7 @@
 :root{
     --bg-orange:#CD3D0F;
     --bg-new-exit-dark:#1F1F1F;
+    --bg-grey:#BEBCBB;
 }
 
 .nav_wrapper .logo_sony img {
@@ -127,6 +128,17 @@ a{
 
 .explore>.container{
     min-height: 600px;
+}
+
+/* PlayStation Plus */
+
+.play_plus{
+    min-height: 300px;
+    background-color: var(--bg-grey);
+}
+
+.plus{
+    width: 100%;
 }
 
 
