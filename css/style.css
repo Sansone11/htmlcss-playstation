@@ -4,6 +4,7 @@
     --bg-orange:#CD3D0F;
     --bg-new-exit-dark:#1F1F1F;
     --bg-grey:#BEBCBB;
+    --bg-play-now:#161C3B;
 }
 
 .nav_wrapper .logo_sony img {
@@ -140,6 +141,37 @@ a{
 .plus{
     width: 100%;
 }
+/* discount */
+
+.discount{
+    min-height: 600px;
+}
+
+..discount>.container{
+    min-height: 600px;
+}
+
+/* playStation now */
+
+.play_now{
+    min-height: 400px;
+    background-color: var(--bg-play-now);
+}
+
+.play_now>.container{
+    min-height: 400px;
+}
+
+/* folow-us */
+
+.follow_us{
+    min-height: 400px;
+}
+
+.follow_us>.container{
+    min-height: 400px;
+}
+
 
 
 
