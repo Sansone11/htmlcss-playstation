@@ -5,6 +5,7 @@
     --bg-new-exit-dark:#1F1F1F;
     --bg-grey:#BEBCBB;
     --bg-play-now:#161C3B;
+    --bg-footer-blu:#00439C;
 }
 
 .nav_wrapper .logo_sony img {
@@ -172,7 +173,15 @@ a{
     min-height: 400px;
 }
 
+/* end */
+.end{
+    min-height: 600px;
+    background-color: var(--bg-footer-blu);
+}
 
+.end>.container{
+    min-height: 600px;
+}
 
 
 
