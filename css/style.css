@@ -152,7 +152,7 @@ a {
 }
 
 .wow.btn{
-    background-color:var(--bg-button-blu);
+    background-color:var(--bg-button-blu)!important;
 }
 
 /* PlayStation Plus */
@@ -224,6 +224,8 @@ a {
     border: none;
 }
 
-a{
+.list-group-item>a{
     text-decoration: none;
+    color: white;
+    line-height: 5px;
 }
