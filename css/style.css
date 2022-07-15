@@ -151,7 +151,7 @@ a {
     min-height: 600px;
 }
 
-.wow.btn{
+.wow .btn{
     background-color:var(--bg-button-blu)!important;
 }
 
