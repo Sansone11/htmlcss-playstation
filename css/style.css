@@ -40,7 +40,7 @@ a {
 }
 
 .hero {
-    height: 600px;
+    min-height: 600px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: top;
@@ -90,6 +90,18 @@ a {
     width: 100%;
 }
 
+.try{
+    max-width: 400px;
+}
+
+.ps5{
+    font-size: 30px;
+}
+
+.blu{
+    color:var(--bg-button-blu);
+}
+
 .play_first {
     min-height: 388px;
     vertical-align: middle;
@@ -97,6 +109,7 @@ a {
 
 .ps_card{
     border: none;
+    font-size: 1rem;
 }
 
 
@@ -110,7 +123,7 @@ a {
 }
 
 .takes_two>.container {
-    height: 600px;
+    min-height: 600px;
 }
 
 .take_two h3 {
@@ -118,12 +131,16 @@ a {
     max-width: 300px;
 }
 
+.take h3{
+    max-width: 380px;
+}
+
 .take_logo {
     max-width: 300px;
 }
 
 .find_friend {
-    max-width: 300px;
+    max-width: 360px;
 }
 
 /* new exit */
@@ -141,7 +158,16 @@ a {
     width: 100%;
 }
 
-/* Explore */
+.col h6{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.new_exit p{
+    font-size: 20px;
+}
+
+/* Explore ps 4*/
 
 .explore {
     min-height: 600px;
@@ -151,25 +177,36 @@ a {
     min-height: 600px;
 }
 
-.wow .btn{
-    background-color:var(--bg-button-blu)!important;
+.card-body p{
+    max-width: 250px;
+}
+
+.card-body h3{
+    margin-bottom: 25px;
 }
 
 /* PlayStation Plus */
 
 .play_plus {
-    min-height: 300px;
+    min-height: 200px;
     background-color: var(--bg-grey);
 }
+.plus{
+    width: 80%;
+}
 
-.plus {
-    width: 100%;
+.btn.bg-light{
+    color:var(--bg-footer-blu);
 }
 
 /* discount */
 
 .discount {
     min-height: 600px;
+}
+
+.discount p{
+    margin-bottom: 50px;
 }
 
 .discount>.container {
@@ -183,6 +220,7 @@ a {
     background-color: var(--bg-play-now);
 }
 
+
 .play_now>.container {
     min-height: 400px;
 }
@@ -190,16 +228,16 @@ a {
 /* folow-us */
 
 .follow_us {
-    min-height: 400px;
+    min-height: 200px;
 }
 
 .follow_us>.container {
     min-height: 400px;
 }
 
-.social{
-    width: 40%;
-}
+/* .social{
+    width: 50%;
+} */
 
 /* end */
 .end {
@@ -227,5 +265,9 @@ a {
 .list-group-item>a{
     text-decoration: none;
     color: white;
-    line-height: 5px;
+    padding:none;
+}
+
+.country{
+    font-size: 10px;
 }
