@@ -1,23 +1,27 @@
 /* debug */
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
-:root{
-    --bg-orange:#CD3D0F;
-    --bg-new-exit-dark:#1F1F1F;
-    --bg-grey:#BEBCBB;
-    --bg-play-now:#161C3B;
-    --bg-footer-blu:#00439C;
+:root {
+    --bg-orange: #CD3D0F;
+    --bg-new-exit-dark: #1F1F1F;
+    --bg-grey: #BEBCBB;
+    --bg-play-now: #161C3B;
+    --bg-footer-blu: #00439C;
+    --bg-button-blu:#2D64E6;
 }
 
 .nav_wrapper .logo_sony img {
     width: 5.25rem;
 }
 
-.search{
+.search {
     height: 24px;
     color: black;
 }
 
-.menù_wrap_right{
+.menù_wrap_right {
     display: flex;
     align-items: center;
 }
@@ -27,11 +31,11 @@
     content: 'f107';
 }
 
-li{
+li {
     text-decoration: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -40,26 +44,27 @@ a{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: top;
-    
+
 }
 
-.hero>.container{
+.hero>.container {
     height: 600px;
 }
 
-.hero h3{
+.hero h3 {
     font-size: 60px;
-    
+
 }
 
 
-/* .buy{
-    height:64px;
-    width:170px;
+.buy.btn {
+    height: 64px;
+    width: 170px;
     background-color:var(--bg-orange);
-} */
+    vertical-align: middle;
+}
 
-.get_up{
+.get_up {
     max-width: 400px;
 }
 
@@ -68,121 +73,157 @@ a{
 
 }
 
-.card>img{
-    width: 100%%;
+/* carosello */
+
+.carosello {
+    min-height: 160px;
 }
 
-.play5{
-    height: 12rem;
+.carosello>.container {
+    min-height: 160px;
+}
+
+/* Play-5 */
+
+.play5 {
+    height: 16rem;
     width: 100%;
 }
 
-.play-card{
-    width: 100%;
+.play_first {
+    min-height: 388px;
+    vertical-align: middle;
 }
+
+.ps_card{
+    border: none;
+}
+
 
 /* section take two */
 
-.take_two{
+.take_two {
     height: 600px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    background-position: top;  
+    background-position: top;
 }
 
-.takes_two>.container{
+.takes_two>.container {
     height: 600px;
 }
 
-.take_two h3{
+.take_two h3 {
     font-size: 40px;
     max-width: 300px;
 }
 
-.take_logo{ 
+.take_logo {
     max-width: 300px;
 }
 
-.find_friend{
+.find_friend {
     max-width: 300px;
 }
 
 /* new exit */
 
-.new_exit{
+.new_exit {
     min-height: 600px;
-    background-color:var(--bg-new-exit-dark) ;
+    background-color: var(--bg-new-exit-dark);
 }
 
-.new_exit>.container{
+.new_exit>.container {
     min-height: 600px;
 }
 
-.crash-card{
+.crash-card {
     width: 100%;
 }
 
 /* Explore */
 
-.explore{
+.explore {
     min-height: 600px;
 }
 
-.explore>.container{
+.explore>.container {
     min-height: 600px;
+}
+
+.wow.btn{
+    background-color:var(--bg-button-blu);
 }
 
 /* PlayStation Plus */
 
-.play_plus{
+.play_plus {
     min-height: 300px;
     background-color: var(--bg-grey);
 }
 
-.plus{
+.plus {
     width: 100%;
 }
+
 /* discount */
 
-.discount{
+.discount {
     min-height: 600px;
 }
 
-..discount>.container{
+.discount>.container {
     min-height: 600px;
 }
 
 /* playStation now */
 
-.play_now{
+.play_now {
     min-height: 400px;
     background-color: var(--bg-play-now);
 }
 
-.play_now>.container{
+.play_now>.container {
     min-height: 400px;
 }
 
 /* folow-us */
 
-.follow_us{
+.follow_us {
     min-height: 400px;
 }
 
-.follow_us>.container{
+.follow_us>.container {
     min-height: 400px;
+}
+
+.social{
+    width: 40%;
 }
 
 /* end */
-.end{
+.end {
     min-height: 600px;
     background-color: var(--bg-footer-blu);
 }
 
-.end>.container{
+.end>.container {
     min-height: 600px;
 }
 
+.enter{
+    width: 10%;
+}
 
+.global{
+    width: 5%;
+}
 
+.lk.list-group-item{
+    background-color:transparent;
+    border: none;
+}
 
+a{
+    text-decoration: none;
+}
